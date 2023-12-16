@@ -16,7 +16,6 @@ class EntitiesController < ApplicationController
     @entity = current_user.entities.build(entity_params)
     @groups = current_user.groups
 
-
     if @entity.save
       redirect_to group_path(@group)
     else
