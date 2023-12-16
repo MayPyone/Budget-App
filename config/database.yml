@@ -84,8 +84,4 @@ test:
 #
 production:
   <<: *default
-  database: budget_app_production
-  host: localhost
-  port: 5432
-  username: budget_app
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
