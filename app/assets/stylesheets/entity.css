@@ -1,0 +1,19 @@
+.title-entity {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  color: #434b54;
+  font-size: 19px;
+}
+
+.entities {
+  font-size: 17px;
+}
+
+i {
+  color: white;
+}
+
+.icons i {
+  color: black;
+}
