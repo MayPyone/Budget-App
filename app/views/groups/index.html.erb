@@ -9,7 +9,7 @@
     <%= link_to group_path(group) do %>
     <div class="modal-body">
       <div class='icons'><%= content_tag :i, "", class: "fa #{group.icon}" %></div>
-      <div><%= link_to "#{group.group_name}", group_path(group) %></div>
+      <div><%= link_to "#{group.group_name}", group_path(group), class: 'no-underline' %></div>
       <div><%= "$" "#{group.total_amount}" %></div>
     </div>
     <% end %>

@@ -1,3 +1,12 @@
+.modal-body {
+  margin: 2%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: #434b54;
+  font-size: 19px;
+}
+
 .group-index .modal-body {
   margin: 2% 3%;
   background-color: white;
@@ -23,6 +32,7 @@ nav {
   bottom: 0;
   width: 100%;
   background-color: #5fb523;
+  font-size: 19px;
 }
 
 .add button {
@@ -32,6 +42,7 @@ nav {
   background-color: #5fb523;
   border: 1px solid white;
   color: white;
+  font-size: 19px;
 }
 
 .add-underline {
@@ -64,9 +75,7 @@ nav {
   margin-right: 10px;
 }
 
-.modal-body {
-  margin: 2%;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
+.no-underline {
+  text-decoration: none;
+  color: #434b54;
 }
