@@ -6,8 +6,6 @@ Rails.application.configure do
 # Apache or NGINX already handles this.
 config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present? || ENV['RENDER'].present?
 
-  config.require_master_key = true
-  config.secret_key_base = ENV["SECRET_KEY_BASE"]
   # Code is not reloaded between requests.
   config.enable_reloading = false
 
